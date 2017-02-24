@@ -1,0 +1,20 @@
+{
+  "webhook": {
+	"label": "Slack Webhook URL",
+	"type": "String",
+	"required": true,
+	"help": "Specify the Slack Webhook URL to use."
+  },
+  "channel": {
+	"label": "Slack Channel",
+	"type": "String",
+	"required": true,
+	"help": "Specify the Slack Channel to post messages."
+  },
+  "username": {
+	"label": "Slack Username",
+	"type": "String",
+	"required": false,
+	"help": "(Optional) Specify the Username of a Slack user."
+  }
+}

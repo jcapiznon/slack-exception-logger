@@ -1,0 +1,28 @@
+{
+  "name": "slack-exception-handler",
+  "version": "1.0.0",
+  "description": "Slack Exception Handler Plugin for Reekoh IoT Platform. Post error notifications on Slack",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "author": "reekoh",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "reekoh": "^1.0.0",
+    "amqplib": "^0.5.1",
+    "node-slack": "^0.0.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-json-lint": "^0.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-standard": "^8.0.4",
+    "jshint": "^2.9.4",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}
